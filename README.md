@@ -13,9 +13,9 @@ The.npy file records a list of point cloud data, range-velocity map data, and ta
 
 In the training set, labels ' 0 ' represent ' Unknown ' samples, and labels ' 1 ', ' 2 ', ' 3 ' represent samples of different monitoring users. In the test set, the label ' 0'represents the sample of other users.
 
-The range-velocity map data format is : [ Frame, Range, Velocity ] 
-The format of the point cloud is : [ Frame,1, number of point clouds, [elevation,azimuth,doppler,range, snr] ] 
-The format of Target list is :[tid,posX,posY,velX,velY,accX,accY,posZ,velZ,accZ]
+The range-velocity map data format is : [ Frame, Range, Velocity ]  
+The format of the point cloud is : [ Frame,1, number of point clouds, [elevation,azimuth,doppler,range, snr] ]  
+The format of Target list is :[tid,posX,posY,velX,velY,accX,accY,posZ,velZ,accZ] 
  
 # Dataset
 The data set is published at https://drive.google.com/drive/folders/1rGRe1RbLyo1h_0VrnD-lui0c-qqWVOC9?usp=sharing
