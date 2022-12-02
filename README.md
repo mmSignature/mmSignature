@@ -10,9 +10,13 @@ In each set of experiments, we mark the coordinates of the exclusive location of
 
 # Data Format
 The.npy file records a list of point cloud data, range-velocity map data, and target tracking results. Each file is a list in the format [ [ Point cloud ], [ Target list ], [ Range-Velocity map ], label]. 
+
 In the training set, labels ' 0 ' represent ' Unknown ' samples, and labels ' 1 ', ' 2 ', ' 3 ' represent samples of different monitoring users. In the test set, the label ' 0'represents the sample of other users.
+
 The range-velocity map data format is : [ Frame, Range, Velocity ] 
+
 The format of the point cloud is : [ Frame,1, number of point clouds, [elevation,azimuth,doppler,range, snr] ] 
+
 The format of Target list is :[tid,posX,posY,velX,velY,accX,accY,posZ,velZ,accZ]
  
 # Dataset
