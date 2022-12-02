@@ -1,4 +1,8 @@
 # mmSignature
+Data for paper 'mmSignature: Semi-supervised Human Identification Based on Millimeter Wave Radar'
+Yicheng Yao, Hao Zhang, Changyu Liu, Fanglin Geng, Peng Wang, Lidong Du, Xianxiang Chen, Baoshi Han and Zhen Fang
+E-mail addresses: yaoyicheng19@mails.ucas.ac.cn (Y. Yao)
+
 We conducted four sets of human identification experiments, including 10 monitoring users and 10 other users. For the other users, the model needs to distinguish them from the monitoring users, but it does not need to know who they are. 
 
 # Data Annotation
